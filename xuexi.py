@@ -149,7 +149,7 @@ def star_forward_comment():
         comment = random.choice(redwords['list'])['zuopinneirong']
         send_keys(comment)
         click(d(text='发布'))
-        logger.info('已发布观点: %s',comment)
+        logger.info('已发布观点: %s', comment)
         # 返回
         press_back()
         if count == 2:
